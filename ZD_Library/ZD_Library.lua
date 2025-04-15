@@ -70,7 +70,7 @@ local settingsTable = {
 		-- buildwarnings
 		-- ZDLibraryprompts
 
-	},
+	}--,
 	--System = {
 	--	usageAnalytics = {Type = 'toggle', Value = true, Name = 'Anonymised Analytics'},
 	--}
@@ -199,7 +199,7 @@ if not requestsDisabled then
 						reporter.report("ZDLibrary", Release, InterfaceBuild)
 					end)
 				else
-					warn("Failed to load or execute the reporter. \nPlease notify ZDLibrary developers at sirius.menu/discord.")
+					warn("Failed to load or execute the reporter. \nPlease notify ZDLibrary developers at ")
 				end
 			end)
 			if debugX then warn('Finished Report') end
@@ -607,7 +607,7 @@ local CoreGui = getService("CoreGui")
 
 -- Interface Management
 
-local ZDLibrary = useStudio and script.Parent:FindFirstChild('ZDLibrary') or game:GetObjects("rbxassetid://10804731440")[1]
+local ZDLibrary = useStudio and script.Parent:FindFirstChild('ZDLibrary') or game:GetObjects("rbxassetid://78052350412323")[1]
 local buildAttempts = 0
 local correctBuild = false
 local warned
@@ -627,7 +627,7 @@ repeat
 		warned = true
 	end
 
-	toDestroy, ZDLibrary = ZDLibrary, useStudio and script.Parent:FindFirstChild('ZDLibrary') or game:GetObjects("rbxassetid://10804731440")[1]
+	toDestroy, ZDLibrary = ZDLibrary, useStudio and script.Parent:FindFirstChild('ZDLibrary') or game:GetObjects("rbxassetid://78052350412323")[1]
 	if toDestroy and not useStudio then toDestroy:Destroy() end
 
 	buildAttempts = buildAttempts + 1
@@ -1712,7 +1712,7 @@ function ZDLibraryLibrary:CreateWindow(Settings)
 		if not Passthrough then
 			local AttemptsRemaining = math.random(2, 5)
 			ZDLibrary.Enabled = false
-			local KeyUI = useStudio and script.Parent:FindFirstChild('Key') or game:GetObjects("rbxassetid://11380036235")[1]
+			local KeyUI = useStudio and script.Parent:FindFirstChild('Key') or game:GetObjects("rbxassetid://82616182890038")[1]
 
 			KeyUI.Enabled = true
 
@@ -3618,7 +3618,7 @@ if MPrompt then
 end
 
 for _, TopbarButton in ipairs(Topbar:GetChildren()) do
-	if TopbarButton.ClassName == "ImageButton" and TopbarButton.Name ~= 'Icon' then
+	if TopbarButton.ClassName == "	" and TopbarButton.Name ~= 'Icon' then
 		TopbarButton.MouseEnter:Connect(function()
 			TweenService:Create(TopbarButton, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {ImageTransparency = 0}):Play()
 		end)
