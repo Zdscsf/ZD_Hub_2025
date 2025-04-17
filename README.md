@@ -4,6 +4,7 @@ Soon of the update of all code for new cheat exeperience on @Roblox!
 
 # Game Supported (1):
 - Arsenal
+- Vehicle Legends
 
 # discord.gg/PPFTmWRNHZ
 
