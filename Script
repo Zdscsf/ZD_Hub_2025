@@ -1,0 +1,9 @@
+--Anti AFK
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Zdscsf/ZD_Hub_2025/refs/heads/main/Other/Protected_AntiAFK.lua')))()
+
+--Games
+if game.PlaceId == 286090429 then --Arsenal
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Zdscsf/ZD_Hub_2025/refs/heads/main/Games/Protected_Arsenal.lua')))()
+
+elseif game.Players.LocalPlayer:kick("Game is not in ZD Hub! Join Discord for more informations")
+end
