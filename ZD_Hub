@@ -4,6 +4,8 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/Zdscsf/ZD_Hub_2025/r
 --Games
 if game.PlaceId == 286090429 then --Arsenal
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Zdscsf/ZD_Hub_2025/refs/heads/main/Games/Protected_Arsenal.lua')))()
+elseif game.PlaceId == 4566572536 then --Vehicle_Legends
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Zdscsf/ZD_Hub_2025/refs/heads/main/Games/Protected_Vehicle_Legends.lua')))()
 else 
 	game.Players.LocalPlayer:kick("Game is not in ZD Hub! Join Discord for more informations")
 end
