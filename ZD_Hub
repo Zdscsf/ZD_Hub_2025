@@ -14,6 +14,8 @@ elseif game.PlaceId == 10914683361 then --Busy Business
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Zdscsf/ZD_Hub_2025/refs/heads/main/Games/Protected_Busy_Business.lua')))()
 elseif game.PlaceId == 8328351891 then --Mega Mansion Tycoon
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Zdscsf/ZD_Hub_2025/refs/heads/main/Games/Protected_Mega_Mansion_Tycoon.lua')))()
+elseif game.PlaceId == 1240123653 then --Zombie Attack
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Zdscsf/ZD_Hub_2025/refs/heads/main/Games/Protected_Zombie_Attack.lua')))()
 else 
 	game.Players.LocalPlayer:kick("Game is not in ZD Hub! Join Discord for more informations")
 end
