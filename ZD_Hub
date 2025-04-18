@@ -8,6 +8,8 @@ elseif game.PlaceId == 4566572536 then --Vehicle_Legends
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Zdscsf/ZD_Hub_2025/refs/heads/main/Games/Protected_Vehicle_Legends.lua')))()
 elseif game.PlaceId == 893973440 then --Flee The Facility
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Zdscsf/ZD_Hub_2025/refs/heads/main/Games/Protected_Flee_The_Facility.lua')))()
+elseif game.PlaceId == 11063612131 then --1 Jump Every Seconds
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Zdscsf/ZD_Hub_2025/refs/heads/main/Games/Protected_1_Jump_Every_Seconds.lua')))()
 else 
 	game.Players.LocalPlayer:kick("Game is not in ZD Hub! Join Discord for more informations")
 end
