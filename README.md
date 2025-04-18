@@ -2,9 +2,10 @@
 
 Soon of the update of all code for new cheat exeperience on @Roblox!
 
-# Game Supported (2):
+# Game Supported (3):
 - Arsenal
 - Vehicle Legends
+- Flee The Facility
 
 # discord.gg/PPFTmWRNHZ
 
