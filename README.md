@@ -9,13 +9,14 @@ I'm update all my script on my old Hub (31 Games) and I'm trying to be quick to 
 Thx For your support all is free, no key; no linkvertise or other.
 If you want make a donation comme in my Discord Dm @zdscsf
 
-# Game Supported (6):
+# Game Supported (7):
 - Arsenal
 - Vehicle Legends
 - Flee The Facility
 - 1 Jump Every Seconds
 - Busy Business
 - Mega Mansion Tycoon
+- Zombie Attack
 
 # discord.gg/PPFTmWRNHZ
 
