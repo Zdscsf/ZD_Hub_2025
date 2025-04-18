@@ -20,6 +20,8 @@ elseif game.PlaceId == 3351674303 then --Driving Empire
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Zdscsf/ZD_Hub_2025/refs/heads/main/Games/Protected_Driving_Empire.lua')))()
 elseif game.PlaceId == 11966456877 then --Answer or Die
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Zdscsf/ZD_Hub_2025/refs/heads/main/Games/Protected_Answer_or_Die.lua')))()
+elseif game.PlaceId == 205224386 then --Hide and Seek Extreme
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Zdscsf/ZD_Hub_2025/refs/heads/main/Games/Protected_Hide_and_Seek_Extreme.lua')))()
 else 
 	game.Players.LocalPlayer:kick("Game is not in ZD Hub! Join Discord for more informations")
 end
