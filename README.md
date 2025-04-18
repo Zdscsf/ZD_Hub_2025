@@ -7,7 +7,7 @@ For mobile user, i need your feedback!
 I'm update all my script on my old Hub (31 Games) and I'm trying to be quick to make a script for the Game event
 
 Thx For your support all is free, no key; no linkvertise or other.
-If you want do a donation comme in my Discord Dm @zdscsf
+If you want make a donation comme in my Discord Dm @zdscsf
 
 # Game Supported (6):
 - Arsenal
