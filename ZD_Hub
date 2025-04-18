@@ -12,6 +12,8 @@ elseif game.PlaceId == 11063612131 then --1 Jump Every Seconds
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Zdscsf/ZD_Hub_2025/refs/heads/main/Games/Protected_1_Jump_Every_Seconds.lua')))()
 elseif game.PlaceId == 10914683361 then --Busy Business
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Zdscsf/ZD_Hub_2025/refs/heads/main/Games/Protected_Busy_Business.lua')))()
+elseif game.PlaceId == 8328351891 then --Mega Mansion Tycoon
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Zdscsf/ZD_Hub_2025/refs/heads/main/Games/Protected_Mega_Mansion_Tycoon.lua')))()
 else 
 	game.Players.LocalPlayer:kick("Game is not in ZD Hub! Join Discord for more informations")
 end
