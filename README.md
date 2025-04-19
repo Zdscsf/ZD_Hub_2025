@@ -1,7 +1,7 @@
 # ZD_Hub_2025
 
 hello,i'm the creator of the ZD Hub.
-All scripts work 100% on PC (tested with Xeno Executor)
+All scripts work 100% on PC (tested with Xeno Executor).
 For mobile user, i need your feedback!
 
 I'm update all my script on my old Hub (31 Games) and I'm trying to be quick to make a script for the Game event
